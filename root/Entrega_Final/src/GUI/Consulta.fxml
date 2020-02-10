@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" onMouseEntered="#actualizar" prefHeight="500.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="GUI.ConsultaController">
+   <children>
+      <ImageView fitHeight="193.0" fitWidth="200.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/encabezado.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="61.0" layoutY="25.0" text="Teatro X">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="316.0" layoutY="111.0" text="Usuario:">
+         <font>
+            <Font name="Serif Italic" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="usuario" layoutX="418.0" layoutY="108.0" prefHeight="32.0" prefWidth="274.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutX="145.0" layoutY="199.0" prefHeight="200.0" prefWidth="547.0">
+        <columns>
+          <TableColumn fx:id="Pelicula" prefWidth="187.0" text="Pelicula" />
+            <TableColumn fx:id="Dia" prefWidth="107.0" text="Día" />
+            <TableColumn fx:id="Hora" minWidth="7.0" prefWidth="91.0" text="Hora" />
+            <TableColumn fx:id="Sala" minWidth="0.0" prefWidth="72.0" text="Sala" />
+            <TableColumn fx:id="Silla" minWidth="0.0" prefWidth="89.0" text="Silla" />
+        </columns>
+      </TableView>
+      <Label layoutX="40.0" layoutY="449.0" onMouseClicked="#back" text="⬅ Volver">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

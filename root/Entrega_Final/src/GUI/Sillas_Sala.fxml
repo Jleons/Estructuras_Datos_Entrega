@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" onMouseEntered="#refreshButtons" onMouseReleased="#refreshButtons" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Sillas_SalaController">
+   <children>
+      <GridPane fx:id="silllasGeneral" alignment="CENTER" layoutX="200.0" layoutY="139.0" prefHeight="210.0" prefWidth="400.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="35.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="60.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="35.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="35.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="35.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="35.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="35.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="60.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="35.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="35.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="51.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="45.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="32.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+         	<Button fx:id="silla00" mnemonicParsing="false" onAction="#click" styleClass="botonGeneral" text="00" />
+            <Button fx:id="silla01" mnemonicParsing="false" onAction="#click" text="01" GridPane.columnIndex="1" />
+            <Button fx:id="silla02" mnemonicParsing="false" onAction="#click" text="02" GridPane.columnIndex="2" />
+            <Button fx:id="silla03" mnemonicParsing="false" onAction="#click" text="03" GridPane.columnIndex="3" />
+            <Button fx:id="silla04" mnemonicParsing="false" onAction="#click" text="04" GridPane.columnIndex="4" />
+            <Button fx:id="silla05" mnemonicParsing="false" onAction="#click" text="05" GridPane.columnIndex="5" />
+            <Button fx:id="silla06" mnemonicParsing="false" onAction="#click" text="06" GridPane.columnIndex="6" />
+            <Button fx:id="silla07" mnemonicParsing="false" onAction="#click" text="07" GridPane.columnIndex="7" />
+            <Button fx:id="silla08" mnemonicParsing="false" onAction="#click" text="08" GridPane.columnIndex="8" />
+            <Button fx:id="silla09" mnemonicParsing="false" onAction="#click" text="09" GridPane.columnIndex="9" />
+            <Button fx:id="silla10" mnemonicParsing="false" onAction="#click" text="10" GridPane.rowIndex="1" />
+            <Button fx:id="silla11" mnemonicParsing="false" onAction="#click" text="11" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="silla12" mnemonicParsing="false" onAction="#click" text="12" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="silla13" mnemonicParsing="false" onAction="#click" text="13" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="silla14" mnemonicParsing="false" onAction="#click" text="14" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button fx:id="silla15" mnemonicParsing="false" onAction="#click" text="15" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button fx:id="silla16" mnemonicParsing="false" onAction="#click" text="16" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Button fx:id="silla17" mnemonicParsing="false" onAction="#click" text="17" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Button fx:id="silla18" mnemonicParsing="false" onAction="#click" text="18" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Button fx:id="silla19" mnemonicParsing="false" onAction="#click" text="19" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+            <Button fx:id="silla20" mnemonicParsing="false" onAction="#click" text="20" GridPane.rowIndex="2" />
+            <Button fx:id="silla21" mnemonicParsing="false" onAction="#click" text="21" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="silla22" mnemonicParsing="false" onAction="#click" text="22" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="silla23" mnemonicParsing="false" onAction="#click" text="23" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="silla24" mnemonicParsing="false" onAction="#click" text="24" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button fx:id="silla25" mnemonicParsing="false" onAction="#click" text="25" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button fx:id="silla26" mnemonicParsing="false" onAction="#click" text="26" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button fx:id="silla27" mnemonicParsing="false" onAction="#click" text="27" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Button fx:id="silla28" mnemonicParsing="false" onAction="#click" text="28" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+            <Button fx:id="silla29" mnemonicParsing="false" onAction="#click" text="29" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+            <Button fx:id="silla30" mnemonicParsing="false" onAction="#click" text="30" GridPane.rowIndex="3" />
+            <Button fx:id="silla31" mnemonicParsing="false" onAction="#click" text="31" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="silla32" mnemonicParsing="false" onAction="#click" text="32" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="silla33" mnemonicParsing="false" onAction="#click" text="33" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button fx:id="silla34" mnemonicParsing="false" onAction="#click" text="34" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Button fx:id="silla35" mnemonicParsing="false" onAction="#click" text="35" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Button fx:id="silla36" mnemonicParsing="false" onAction="#click" text="36" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Button fx:id="silla37" mnemonicParsing="false" onAction="#click" text="37" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <Button fx:id="silla38" mnemonicParsing="false" onAction="#click" text="38" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+            <Button fx:id="silla39" mnemonicParsing="false" onAction="#click" text="39" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+            <Button fx:id="silla40" mnemonicParsing="false" onAction="#click" text="40" GridPane.rowIndex="4" />
+            <Button fx:id="silla41" mnemonicParsing="false" onAction="#click" text="41" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button fx:id="silla42" mnemonicParsing="false" onAction="#click" text="42" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button fx:id="silla43" mnemonicParsing="false" onAction="#click" text="43" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Button fx:id="silla44" mnemonicParsing="false" onAction="#click" text="44" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Button fx:id="silla45" mnemonicParsing="false" onAction="#click" text="45" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Button fx:id="silla46" mnemonicParsing="false" onAction="#click" text="46" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Button fx:id="silla47" mnemonicParsing="false" onAction="#click" text="47" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <Button fx:id="silla48" mnemonicParsing="false" onAction="#click" text="48" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+            <Button fx:id="silla49" mnemonicParsing="false" onAction="#click" text="49" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+            <Button fx:id="silla50" mnemonicParsing="false" onAction="#click" text="50" GridPane.rowIndex="5" />
+            <Button fx:id="silla51" mnemonicParsing="false" onAction="#click" text="51" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Button fx:id="silla52" mnemonicParsing="false" onAction="#click" text="52" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Button fx:id="silla53" mnemonicParsing="false" onAction="#click" text="53" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Button fx:id="silla54" mnemonicParsing="false" onAction="#click" text="54" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Button fx:id="silla55" mnemonicParsing="false" onAction="#click" text="55" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Button fx:id="silla56" mnemonicParsing="false" onAction="#click" text="56" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Button fx:id="silla57" mnemonicParsing="false" onAction="#click" text="57" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <Button fx:id="silla58" mnemonicParsing="false" onAction="#click" text="58" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+            <Button fx:id="silla59" mnemonicParsing="false" onAction="#click" text="59" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+            <Button fx:id="silla60" mnemonicParsing="false" onAction="#click" text="60" GridPane.rowIndex="6" />
+            <Button fx:id="silla61" mnemonicParsing="false" onAction="#click" text="61" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Button fx:id="silla62" mnemonicParsing="false" onAction="#click" text="62" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Button fx:id="silla63" mnemonicParsing="false" onAction="#click" text="63" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Button fx:id="silla64" mnemonicParsing="false" onAction="#click" text="64" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Button fx:id="silla65" mnemonicParsing="false" onAction="#click" text="65" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Button fx:id="silla66" mnemonicParsing="false" onAction="#click" text="66" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <Button fx:id="silla67" mnemonicParsing="false" onAction="#click" text="67" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+            <Button fx:id="silla68" mnemonicParsing="false" onAction="#click" text="68" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+            <Button fx:id="silla69" mnemonicParsing="false" onAction="#click" text="69" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+            
+         </children>
+      </GridPane>
+      <GridPane layoutX="200.0" layoutY="365.0" prefHeight="90.0" prefWidth="400.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="35.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="60.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="35.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="35.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="35.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="35.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="35.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="60.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="35.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="35.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+         	<Button fx:id="silla70" mnemonicParsing="false" onAction="#click" text="70" textFill="#a82222" />
+         	<Button fx:id="silla71" mnemonicParsing="false" onAction="#click" text="71" textFill="#a82222" GridPane.columnIndex="1" />
+            <Button fx:id="silla72" mnemonicParsing="false" onAction="#click" text="72" textFill="#a82222" GridPane.columnIndex="2" />
+            <Button fx:id="silla73" mnemonicParsing="false" onAction="#click" text="73" textFill="#a82222" GridPane.columnIndex="3" />
+            <Button fx:id="silla74" mnemonicParsing="false" onAction="#click" text="74" textFill="#a82222" GridPane.columnIndex="4" />
+            <Button fx:id="silla75" mnemonicParsing="false" onAction="#click" text="75" textFill="#a82222" GridPane.columnIndex="5" />
+            <Button fx:id="silla76" mnemonicParsing="false" onAction="#click" text="76" textFill="#a82222" GridPane.columnIndex="6" />
+            <Button fx:id="silla77" mnemonicParsing="false" onAction="#click" text="77" textFill="#a82222" GridPane.columnIndex="7" />
+            <Button fx:id="silla78" mnemonicParsing="false" onAction="#click" text="78" textFill="#a82222" GridPane.columnIndex="8" />
+            <Button fx:id="silla79" mnemonicParsing="false" onAction="#click" text="79" textFill="#a82222" GridPane.columnIndex="9" />
+            <Button fx:id="silla80" mnemonicParsing="false" onAction="#click" text="80" textFill="#a82222" GridPane.rowIndex="1" />
+         	<Button fx:id="silla81" mnemonicParsing="false" onAction="#click" text="81" textFill="#a82222" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="silla82" mnemonicParsing="false" onAction="#click" text="82" textFill="#a82222" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="silla83" mnemonicParsing="false" onAction="#click" text="83" textFill="#a82222" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="silla84" mnemonicParsing="false" onAction="#click" text="84" textFill="#a82222" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button fx:id="silla85" mnemonicParsing="false" onAction="#click" text="85" textFill="#a82222" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button fx:id="silla86" mnemonicParsing="false" onAction="#click" text="86" textFill="#a82222" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Button fx:id="silla87" mnemonicParsing="false" onAction="#click" text="87" textFill="#a82222" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Button fx:id="silla88" mnemonicParsing="false" onAction="#click" text="88" textFill="#a82222" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Button fx:id="silla89" mnemonicParsing="false" onAction="#click" text="89" textFill="#a82222" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+            <Button fx:id="silla90" mnemonicParsing="false" onAction="#click" text="90" textFill="#a82222" GridPane.rowIndex="2" />
+         	<Button fx:id="silla91" mnemonicParsing="false" onAction="#click" text="91" textFill="#a82222" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="silla92" mnemonicParsing="false" onAction="#click" text="92" textFill="#a82222" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="silla93" mnemonicParsing="false" onAction="#click" text="93" textFill="#a82222" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="silla94" mnemonicParsing="false" onAction="#click" text="94" textFill="#a82222" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button fx:id="silla95" mnemonicParsing="false" onAction="#click" text="95" textFill="#a82222" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button fx:id="silla96" mnemonicParsing="false" onAction="#click" text="96" textFill="#a82222" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button fx:id="silla97" mnemonicParsing="false" onAction="#click" text="97" textFill="#a82222" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Button fx:id="silla98" mnemonicParsing="false" onAction="#click" text="98" textFill="#a82222" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+            <Button fx:id="silla99" mnemonicParsing="false" onAction="#click" text="99" textFill="#a82222" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <Label layoutX="206.0" layoutY="42.0" style="-fx-background-color: gray; -fx-border-width: 2; -fx-border-style: solid;" text="PANTALLA" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Unicode" size="64.0" />
+         </font>
+         <padding>
+            <Insets bottom="-15.0" left="30.0" right="30.0" top="-15.0" />
+         </padding>
+      </Label>
+      <Label layoutX="34.0" layoutY="440.0" onMouseClicked="#back" text="⬅ Volver">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="193.0" fitWidth="200.0" layoutX="-21.0" layoutY="-28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/encabezado.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="40.0" layoutY="28.0" text="Teatro X">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

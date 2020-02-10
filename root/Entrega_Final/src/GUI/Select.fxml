@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.SelectController">
+   <children>
+      <ImageView fitHeight="193.0" fitWidth="200.0" layoutX="10.0" layoutY="-22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/encabezado.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="71.0" layoutY="34.0" text="Teatro X">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="Cartelera_button" layoutX="108.0" layoutY="115.0" onMouseClicked="#to_cartelera" prefHeight="285.0" prefWidth="252.0">
+         <children>
+            <Label layoutX="58.0" layoutY="231.0" text="Cartelera">
+               <font>
+                  <Font name="Serif Regular" size="41.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="26.0" layoutY="14.0">
+               <image>
+                  <Image url="@../images/reserva.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="Consulta_button" layoutX="440.0" layoutY="112.0" onMouseClicked="#to_consulta" prefHeight="297.0" prefWidth="252.0">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="38.0" layoutY="14.0">
+               <image>
+                  <Image url="@../images/compra.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="53.0" layoutY="229.0" text="Consulta">
+               <font>
+                  <Font name="Serif Regular" size="41.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="206.0" fitWidth="193.0" layoutX="587.0" layoutY="8.0" rotate="90.0">
+         <image>
+            <Image url="@../images/Margen.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="221.0" fitWidth="215.0" layoutX="17.0" layoutY="255.0" rotate="-90.0">
+         <image>
+            <Image url="@../images/Margen.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="back" layoutX="631.0" layoutY="441.0" onMouseClicked="#to_registro" text="🚪 Cerrar sesión">
+         <font>
+            <Font name="Serif Regular" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
